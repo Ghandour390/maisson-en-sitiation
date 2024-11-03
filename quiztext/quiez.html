@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizQeustions</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container">
+            <h2 id="question-text"></h2>
+            <div id="choix-buttons" class="btn-group"></div>
+        </div>
+        <button id="retour-btn" onclick="retour()
+        ">retour</button>
+        <button id="suivant-btn" onclick="suivant()">siuvant<button>
+        <button id="fini-btn" onclick="finiQuiz()">fini</button>
+    </div>
+    <div id="result-container" style="display:none;">
+        <h2>rusltat</h2>
+        <p id="note"></p>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
